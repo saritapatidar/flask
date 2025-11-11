@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>welcome</title>
+</head>
+<body>
+    <form method="POST" action="">
+        <div>
+            {{ form.name.label }} {{ form.name(size=20) }}
+        </div>
+        <div>
+            {{ form.age.label }} {{ form.age(size=20) }}
+        </div>
+        <div>
+            {{ form.department.label }} {{ form.department(size=20) }}
+        </div>
+        <div>
+            <input type="submit" value="Submit">
+        </div>
+    </form>         
+</body>
+</html>
